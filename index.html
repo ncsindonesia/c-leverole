@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NCS Indonesia | Solusi Produk Pertanian</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+.hero{
+background:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef');
+background-size:cover;
+background-position:center;
+}
+
+.glass{
+backdrop-filter: blur(12px);
+background: rgba(255,255,255,0.1);
+}
+
+</style>
+
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+
+<header class="fixed w-full bg-white/80 backdrop-blur shadow-sm z-50">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+<h1 class="text-2xl font-bold text-green-600">
+NCS Indonesia
+</h1>
+
+<nav class="hidden md:flex gap-8 font-medium">
+
+<a href="#" class="hover:text-green-600">Home</a>
+<a href="#produk" class="hover:text-green-600">Produk</a>
+<a href="#testimoni" class="hover:text-green-600">Testimoni</a>
+<a href="#faq" class="hover:text-green-600">FAQ</a>
+
+</nav>
+
+<a href="https://wa.me/6281234567890"
+class="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700">
+Konsultasi
+</a>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero h-screen flex items-center text-white">
+
+<div class="bg-black/50 w-full h-full flex items-center">
+
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+<div data-aos="fade-right">
+
+<h1 class="text-5xl font-bold leading-tight mb-6">
+Solusi Modern Untuk Perlindungan Tanaman
+</h1>
+
+<p class="text-lg mb-8">
+Produk pertanian NCS membantu petani mengendalikan hama, meningkatkan kesehatan tanaman, dan menghasilkan panen yang lebih maksimal.
+</p>
+
+<div class="flex gap-4">
+
+<a href="#produk"
+class="bg-green-600 px-6 py-3 rounded-lg hover:bg-green-700">
+Lihat Produk
+</a>
+
+<a href="https://wa.me/6281234567890"
+class="bg-white text-green-600 px-6 py-3 rounded-lg">
+WhatsApp
+</a>
+
+</div>
+
+</div>
+
+<div data-aos="fade-left">
+
+<img src="https://images.unsplash.com/photo-1598514982846-08f0a8c2f3bb"
+class="rounded-xl shadow-2xl">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TRUST -->
+
+<section class="py-16 bg-white">
+
+<div class="max-w-6xl mx-auto grid md:grid-cols-4 text-center gap-8">
+
+<div>
+<h2 class="text-4xl font-bold text-green-600">500+</h2>
+<p>Petani Menggunakan</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold text-green-600">20+</h2>
+<p>Kota Distribusi</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold text-green-600">10+</h2>
+<p>Tahun Pengalaman</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold text-green-600">95%</h2>
+<p>Kepuasan Pelanggan</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- KEUNGGULAN -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-14">
+Kenapa Memilih NCS?
+</h2>
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition" data-aos="zoom-in">
+
+<i class="fa-solid fa-flask text-green-600 text-3xl mb-4"></i>
+
+<h3 class="font-bold text-xl mb-2">Formula Efektif</h3>
+
+<p>Mengendalikan berbagai jenis hama tanaman secara optimal.</p>
+
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition" data-aos="zoom-in">
+
+<i class="fa-solid fa-leaf text-green-600 text-3xl mb-4"></i>
+
+<h3 class="font-bold text-xl mb-2">Aman Untuk Tanaman</h3>
+
+<p>Dirancang untuk menjaga kesehatan tanaman.</p>
+
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition" data-aos="zoom-in">
+
+<i class="fa-solid fa-award text-green-600 text-3xl mb-4"></i>
+
+<h3 class="font-bold text-xl mb-2">Terpercaya</h3>
+
+<p>Dipercaya oleh petani di berbagai daerah.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PRODUK -->
+
+<section id="produk" class="py-20 bg-gray-100">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Produk Unggulan
+</h2>
+
+<div class="swiper">
+
+<div class="swiper-wrapper">
+
+
+<div class="swiper-slide bg-white rounded-xl shadow p-6 text-center">
+
+<img src="https://images.unsplash.com/photo-1592982537447-6f2d8c9d9c60" class="rounded-lg mb-4">
+
+<h3 class="font-bold text-xl">NCS Insektisida</h3>
+
+<p class="text-gray-600">
+Mengendalikan hama tanaman secara efektif.
+</p>
+
+</div>
+
+
+<div class="swiper-slide bg-white rounded-xl shadow p-6 text-center">
+
+<img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae" class="rounded-lg mb-4">
+
+<h3 class="font-bold text-xl">NCS Fungisida</h3>
+
+<p class="text-gray-600">
+Melindungi tanaman dari penyakit jamur.
+</p>
+
+</div>
+
+
+<div class="swiper-slide bg-white rounded-xl shadow p-6 text-center">
+
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399" class="rounded-lg mb-4">
+
+<h3 class="font-bold text-xl">NCS Nutrisi</h3>
+
+<p class="text-gray-600">
+Mendukung pertumbuhan tanaman sehat.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TESTIMONI -->
+
+<section id="testimoni" class="py-20 bg-white">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Testimoni Petani
+</h2>
+
+<div class="swiper">
+
+<div class="swiper-wrapper">
+
+
+<div class="swiper-slide bg-gray-100 p-8 rounded-xl">
+
+<p class="mb-4">
+Produk NCS sangat membantu mengurangi hama di kebun saya.
+</p>
+
+<strong>Pak Budi</strong>
+
+</div>
+
+
+<div class="swiper-slide bg-gray-100 p-8 rounded-xl">
+
+<p class="mb-4">
+Hasil panen cabai saya meningkat setelah menggunakan NCS.
+</p>
+
+<strong>Pak Andi</strong>
+
+</div>
+
+
+<div class="swiper-slide bg-gray-100 p-8 rounded-xl">
+
+<p class="mb-4">
+Tanaman terlihat lebih sehat dan kuat.
+</p>
+
+<strong>Pak Joko</strong>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section id="faq" class="py-20 bg-gray-100">
+
+<div class="max-w-4xl mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+Pertanyaan Umum
+</h2>
+
+<div class="space-y-4">
+
+<div class="bg-white p-5 rounded-lg cursor-pointer faq">
+
+<h3 class="font-semibold">Apakah produk aman untuk tanaman?</h3>
+
+<p class="hidden mt-2 text-gray-600">
+Ya, produk digunakan sesuai dosis anjuran.
+</p>
+
+</div>
+
+<div class="bg-white p-5 rounded-lg cursor-pointer faq">
+
+<h3 class="font-semibold">Apakah tersedia pengiriman luar kota?</h3>
+
+<p class="hidden mt-2 text-gray-600">
+Kami melayani pengiriman ke seluruh Indonesia.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="bg-green-600 text-white py-16 text-center">
+
+<h2 class="text-3xl font-bold mb-4">
+Tingkatkan Hasil Panen Anda Sekarang
+</h2>
+
+<a href="https://wa.me/6281234567890"
+class="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold">
+Chat WhatsApp
+</a>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-gray-900 text-gray-400 py-10">
+
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+
+<div>
+<h3 class="text-white text-xl font-bold mb-3">NCS Indonesia</h3>
+<p>Solusi produk pertanian modern.</p>
+</div>
+
+<div>
+<h3 class="text-white mb-3">Menu</h3>
+<ul>
+<li>Produk</li>
+<li>Testimoni</li>
+<li>FAQ</li>
+</ul>
+</div>
+
+<div>
+<h3 class="text-white mb-3">Kontak</h3>
+<p>Email: info@ncsindonesia.com</p>
+<p>Telp: 081234567890</p>
+</div>
+
+</div>
+
+</footer>
+
+
+<!-- WHATSAPP FLOAT -->
+
+<a href="https://wa.me/6281234567890"
+class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full text-2xl shadow-lg">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+
+AOS.init();
+
+new Swiper('.swiper',{
+loop:true,
+spaceBetween:30,
+autoplay:{delay:3000},
+breakpoints:{
+640:{slidesPerView:1},
+768:{slidesPerView:2},
+1024:{slidesPerView:3}
+}
+});
+
+document.querySelectorAll(".faq").forEach(el=>{
+el.addEventListener("click",()=>{
+el.querySelector("p").classList.toggle("hidden")
+})
+})
+
+</script>
+
+</body>
+</html>
